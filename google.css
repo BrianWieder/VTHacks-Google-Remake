@@ -1,0 +1,112 @@
+.navbar {
+    height: 30px;
+    display: flex;
+    padding: 10px;
+    font-size: 13px;
+    align-items: center;
+}
+
+.profilePicture {
+    height: 30px;
+    border-radius: 15px;
+    margin: 0 10px;
+}
+
+.FillEmpty {
+    flex: 1 1 0;
+}
+
+a {
+    margin: 5px;
+    text-decoration: none;
+}
+
+.content {
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.center-content {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: auto;
+}
+
+.google-logo {
+    height: 92px;
+    width: 272px;
+}
+
+a {
+    color: black;
+}
+
+html,
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Roboto;
+    color: black;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer {
+    height: 30px;
+    display: flex;
+    background-color: lightgray;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.searchBar {
+    height: 30px;
+    border-radius: 30px;
+    width: 50vw;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border: 1px solid lightgray;
+    font-size: 15px;
+}
+
+.searchBar:hover,
+.searchBar:focus {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border: 1px solid white;
+    outline: none;
+}
+
+.search-btn {
+    background-color: whitesmoke;
+    color: dimgrey;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border: none;
+    padding: 10px;
+}
+
+.search-btn:hover {
+    cursor: pointer;
+}
+
+.search-btn:focus {
+    outline: none;
+}
+
+html * {
+    font-family: Roboto;
+}
