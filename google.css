@@ -68,6 +68,7 @@ body {
     margin-bottom: 0px;
     padding: 10px;
     font-size: 13px;
+    align-items: center;
 }
 
 .searchBar {
